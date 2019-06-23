@@ -26,6 +26,13 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				 <deploymentType>cloudhub</deploymentType>
+		          <muleVersion>${app.runtime}</muleVersion> 
+		          <username>testmulesoft_1</username> 
+		          <password>testtest1234W</password> 
+		          <applicationName>${artifactId}</applicationName>
+		          <environment>TEST</environment> 
+		      			   
 				</configuration>
 			</plugin>
 		</plugins>
