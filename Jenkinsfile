@@ -4,13 +4,12 @@ pipeline{
     ANYPOINT = credentials('anypoint')
  }
  stages {
- 	stage ('Build'){
- 		steps {
- 			withMaven(maven:''){
- 				sh 'mvn -f mule- pom.xml clean install'
- 			}
- 		}
- 	}
+ 	
+        stage('Build') { 
+            steps {
+                sh 'mvn -B -DskipTests clean install' 
+            }
+        }
 
  }
 
