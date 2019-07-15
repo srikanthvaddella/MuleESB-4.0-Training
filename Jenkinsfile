@@ -6,7 +6,7 @@ pipeline{
  stages {
  	stage ('Build'){
  		steps {
- 			withMaven(maven:'maven'){
+ 			withMaven(maven:''){
  				sh 'mvn -f mule- pom.xml clean install'
  			}
  		}
