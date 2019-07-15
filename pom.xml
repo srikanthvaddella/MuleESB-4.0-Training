@@ -30,7 +30,7 @@
 		          <muleVersion>${app.runtime}</muleVersion> 
 		          <username>testmulesoft_1</username> 
 		          <password>testtest1234W</password> 
-		          <applicationName>${artifactId}</applicationName>
+		          <applicationName>${project.artifactId}</applicationName>
 		          <environment>TEST</environment> 
 		      			   
 				</configuration>
