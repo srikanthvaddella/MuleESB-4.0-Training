@@ -32,7 +32,14 @@
 						<password>IN$BANG$W8$a</password>
 						<applicationName>${project.artifactId}</applicationName>
 						<environment>Development</environment>
+						
+						  <properties>
+                <key>value</key>
+            </properties>
 					</cloudHubDeployment>
+					
+					
+					
 				</configuration>
 				
 				
