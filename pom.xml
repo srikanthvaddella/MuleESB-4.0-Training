@@ -33,12 +33,12 @@
 						<!-- <deploymentType>cloudhub</deploymentType> -->
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.2.0</muleVersion>
-						<username>sri_tri_01</username>
-						<password>in$bang$w8$</password>
+						<username>${username}</username>
+						<password>${password}</password>
 						<applicationName>${project.artifactId}</applicationName>
 						<environment>Sandbox</environment>
 						<!-- <workerType>Micro</workerType> -->
-						<workers>1</workers>
+						
 						<!-- <redploy>true</redploy> -->
 
 					</cloudHubDeployment>
